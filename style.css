@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images2.alphacoders.com/131/1318485.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border: 2px solid #35fa56;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.converter label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.converter input, .converter select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0f5a1c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b4624;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
