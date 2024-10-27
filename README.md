@@ -23,7 +23,7 @@ To run this application locally, follow these steps:
 
  ```bash
 
-    cd currency-converter
+    cd currencyConverter
 ```
   Open the index.html file in your browser to start the application.
 
